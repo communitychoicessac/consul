@@ -19,7 +19,7 @@
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
   <div class="row">
     <div class="small-12 column">
-      <%= f.text_field :login, placeholder: t("devise_views.sessions.new.login_label") %>
+      <%= f.text_field :login %>
     </div>
 
     <div class="small-12 column">
