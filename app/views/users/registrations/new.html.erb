@@ -1,6 +1,15 @@
 <% provide :title do %><%= t("devise_views.users.registrations.new.title") %><% end %>
 <h2><%= t("devise_views.users.registrations.new.title") %></h2>
 
+<p>Creating your account is easy – all you need is an email address:</p>
+
+<ol>
+Create account
+Activate account (via email)
+Login
+Get Started
+</ol>
+
 <p>Registration and sign-in for your online account is powered by the Scottish Government's 'myaccount' service.  It checks who you are and allows you to use a single account to access a range of Scottish public services online.</p>
 
 <%= render "devise/omniauth_form", action: "sign_up" %>
